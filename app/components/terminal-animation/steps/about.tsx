@@ -33,15 +33,30 @@ export default function useTerminalStepAbout() {
     addInputLine(<b>about</b>);
     addOutputLine(<Avatar />);
     addOutputLine(
-      `I'm a product oriented software engineer with ${
+      <span>
+        <b>Kevin de Faveri Aguiar</b> | Software Engineer | Tokyo, Japan
+      </span>
+    );
+    addOutputLine(
+      `Product minded software engineer with ${
         new Date().getFullYear() - 2015
-      }+ years of experience in the finance (tradfi and web3) and educational sectors.`
+      }+ years building in finance (traditional and blockchain) and education.`
     );
     addOutputLine(
-      "I actively contribute to open source engaging with the community through mine and others projects."
+      "Shipped products that processed billions in volume. Passionate about open source."
     );
     addOutputLine(
-      "Driven by curiosity, I'm always exploring new tech and paradigms to innovate."
+      <span>
+        Curious, love teaching, always learning new things.{" "}
+        <a
+          href="https://github.com/kevinfaveri"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:opacity-65 text-accent-orange no-underline"
+        >
+          GitHub
+        </a>
+      </span>
     );
     setCurrentLine("");
   };

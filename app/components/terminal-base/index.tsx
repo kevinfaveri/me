@@ -134,7 +134,7 @@ const Terminal = ({ name, prompt }: Props) => {
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/kevfaveri"
+                    href="https://x.com/kevcode"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-green hover:opacity-60 transition-opacity text-md sm:text-md md:text-lg"
