@@ -2,64 +2,49 @@ export default function Projects() {
   return (
     <div className="flex flex-col space-y-4 mb-4">
       <a
-        href="https://github.com/magicoss/msigner"
+        href="https://github.com/kevinfaveri/solana-candy-factory"
         target="_blank"
         rel="noreferrer"
-        className="hover:opacity-65 text-accent-orange space-y-2 no-underline"
+        className="hover:opacity-65 text-accent-orange space-y-1 no-underline"
       >
         <div className="flex justify-start space-x-2">
-          <img src="/logos/btc-logo.png" alt="BTC Logo" className="w-6 h-6" />
-          <img src="/logos/node-logo.png" alt="Node Logo" className="w-6 h-6" />
+          <img src="/logos/solana-logo.png" alt="Solana Logo" className="w-6 h-6" />
+          <img src="/logos/react-logo.png" alt="React Logo" className="w-6 h-6" />
         </div>
-        <span>msigner: Ordinals Atomic Swap PSBT Signer</span>
+        <span>solana-candy-factory</span>
+        <p className="text-xs text-gray-400">
+          Early Solana NFT ecosystem boilerplate for NFT mint sites. 900+ forks, 300 stars.
+        </p>
       </a>
       <a
         href="https://github.com/diffused-art/diffused-art-core"
         target="_blank"
         rel="noreferrer"
-        className="hover:opacity-65 text-accent-orange space-y-2 no-underline"
+        className="hover:opacity-65 text-accent-orange space-y-1 no-underline"
       >
-        <div className="space-x-2">
-          <img
-            src="/logos/solana-logo.png"
-            alt="Solana Logo"
-            className="w-6 h-6"
-          />
-          <img
-            src="/logos/react-logo.png"
-            alt="React Logo"
-            className="w-6 h-6"
-          />
+        <div className="flex justify-start space-x-2">
+          <img src="/logos/solana-logo.png" alt="Solana Logo" className="w-6 h-6" />
+          <img src="/logos/react-logo.png" alt="React Logo" className="w-6 h-6" />
         </div>
-        <span>Diffused Art - AI Art collection creator studio</span>
+        <span>diffused-art-core</span>
+        <p className="text-xs text-gray-400">
+          AI + Solana before GPT era — platform for creating candy machines that generate NFT art via AI.
+        </p>
       </a>
       <a
-        href="https://github.com/kevinfaveri/rustix"
+        href="https://github.com/kevinfaveri/Monrail"
         target="_blank"
         rel="noreferrer"
-        className="hover:opacity-65 text-accent-orange space-y-2 no-underline"
+        className="hover:opacity-65 text-accent-orange space-y-1 no-underline"
       >
-        <div className="space-x-2">
-          <img src="/logos/rust-logo.png" alt="Rust Logo" className="w-6 h-6" />
-          <img
-            src="/logos/react-logo.png"
-            alt="React Logo"
-            className="w-6 h-6"
-          />
-        </div>
-        <span>Rust REST API + Remix FE Powered WebApp Boilerplate</span>
-      </a>
-      <a
-        href="https://github.com/kevinfaveri/artmaps"
-        target="_blank"
-        rel="noreferrer"
-        className="hover:opacity-65 text-accent-orange space-y-2 no-underline"
-      >
-        <div className="space-x-2">
-          <img src="/logos/btc-logo.png" alt="BTC Logo" className="w-6 h-6" />
+        <div className="flex justify-start space-x-2">
+          <img src="/logos/react-logo.png" alt="React Logo" className="w-6 h-6" />
           <img src="/logos/node-logo.png" alt="Node Logo" className="w-6 h-6" />
         </div>
-        <span>Art Maps - Descentralized GenArt Protocol on top of Bitmaps Ordinals</span>
+        <span>Monrail</span>
+        <p className="text-xs text-gray-400">
+          Cross-chain DEX orchestration with queues — Bun + React + Circle USDC bridge.
+        </p>
       </a>
     </div>
   );

@@ -34,12 +34,14 @@ export default function useTerminalStepExpertises() {
     addInputLine(<b>expertise</b>);
     addOutputLine(<Expertises />);
     addOutputLine(
-      "Back-end services with NodeJS and Rust; and front-end apps with React."
+      "Back-end: Rust, NodeJS, Golang — high-throughput systems, async programming, blockchain indexers."
     );
     addOutputLine(
-      "Immersed in the Solana and Bitcoin ecosystems, wielding extensive knowledge on their groundbreaking technologies."
+      "Blockchain: Solana, Bitcoin Ordinals, EVM chains — deep in NFT protocols, on-chain DEX orchestration."
     );
-    addOutputLine("DevOps experience in CI/CD, Docker, and Kubernetes.");
+    addOutputLine(
+      "Front-end: React, React Native. DevOps: CI/CD, Docker, Kubernetes."
+    );
     setCurrentLine("");
   };
 
